@@ -1,0 +1,10 @@
+APP_PORT=":3000"
+
+APP_SALT="KLDSnhfsoih381273d"
+
+DB_BASE="mysql"
+DB_HOST="localhost"
+DB_PORT="8889"
+DB_USER="root"
+DB_PASS="root"
+DB_NAME="workapp"

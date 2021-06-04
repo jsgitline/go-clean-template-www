@@ -6,8 +6,8 @@ import (
 	"github.com/gofiber/template/html"
 )
 
-
 // Инициализируем роуты приложений
+// Init apps routes
 func SetupFiber() *fiber.App {
 
 	// run new fiber object

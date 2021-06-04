@@ -22,8 +22,10 @@ func main() {
 func run() {
 
 	// Инициализация приложения
+	// init fiber app
 	app := settings.SetupFiber()
 
 	// Чтение потров
+	// Listen ports
 	log.Fatal(app.Listen(os.Getenv("APP_PORT")))
 }
